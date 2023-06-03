@@ -4,13 +4,12 @@
   "description": "Image Description Decision Tree",
   "main": "dist/decisiontree.js",
   "types": "dist/decisiontree.d.ts",
+  "type": "module",
   "scripts": {
     "build": "npx tsc; npx webpack",
     "prepack": "npm install; npx tsc; npx webpack"
   },
-  "maintainers": [
-    "Volker Sorge <v.sorge@progressiveaccess.com>"
-  ],
+  "maintainers": ["Volker Sorge <v.sorge@progressiveaccess.com>"],
   "bugs": {
     "email": "diagram-codesprint@benetech.org",
     "url": "https://github.com/diagram-codesprint/"
@@ -20,10 +19,7 @@
     "type": "git",
     "url": "https://github.com/zorkow/html-decision-tree"
   },
-  "keywords": [
-    "decision tree",
-    "accessibility"
-  ],
+  "keywords": ["decision tree", "accessibility"],
   "homepage": "https://github.com/zorkow/html-decision-tree",
   "dependencies": {},
   "devDependencies": {
@@ -35,11 +31,5 @@
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
   },
-  "files": [
-    "LICENSE",
-    "README.md",
-    "dist",
-    "samples",
-    "styles"
-  ]
+  "files": ["LICENSE", "README.md", "dist", "samples", "styles"]
 }

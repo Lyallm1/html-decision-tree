@@ -5,13 +5,11 @@ body {
     background-color: #fff;
     margin: 0;
 }
-
 .content {
     margin: 0;
     padding: 2rem 0 3rem;
     background-color: #fff;
 }
-
 .DT_TITLE {
     border-bottom: 2px solid #DDDDDD;
     padding: 0;
@@ -24,33 +22,18 @@ body {
     margin: 0.5rem 0;
     color: #000;
 }
-
-.DT_TITLE:after {
-    border-bottom: 2px solid #DDDDDD;
-}
-
-.main-content {
-    padding: 0 1.875rem;
-}
-
+.DT_TITLE:after { border-bottom: 2px solid #DDDDDD; }
+.main-content { padding: 0 1.875rem; }
 #status {
     display: none;
     visibility: hidden;
 }
-
 .DT_CONTENT {
     display: block;
     margin: 0.75rem 0;
 }
-
-.DT_RADIOBUTTON {
-    margin: 0.25rem 0;
-}
-
-.DT_LABEL {
-    padding-left: 0.5rem;
-}
-
+.DT_RADIOBUTTON { margin: 0.25rem 0; }
+.DT_LABEL { padding-left: 0.5rem; }
 .DT_BUTTON {
     border: 1px solid #00758E;
     box-sizing: border-box;
@@ -58,55 +41,40 @@ body {
     padding: 0.5rem 1rem;
     margin: 1rem 1rem 0 0;
 }
-
 .DT_NEXT {
     background-color: #00758E;
     color: #ffffff;
 }
-
 .DT_PREVIOUS {
     background: #ffffff;
     color: #00758E;
 }
-
 .DT_SUMMARY {
     background: #ffffff;
     color: #00758E;
 }
-
 .DT_ACTION {
     background: #ffffff;
     color: #00758E;
 }
-
-.DT_SUMMARYLINE {
-    padding: 1rem;
-}
-
+.DT_SUMMARYLINE { padding: 1rem; }
 .DT_QUESTION {
     float: left;
     color: #000;
 }
-
 .DT_ANSWER {
     float: right;
     color: #000;
 }
-
 @media only screen and (min-width: 660px) {
     body {
         background-color: #DDDDDD;
         margin: 0;
     }
-
     .content {
         width: 530px;
-        /* max-width: 600px; */
         background-color: #fff;
         margin: 0 auto;
     }
-
-    .main-content {
-        padding: 0 1.875rem;
-    } 
+    .main-content { padding: 0 1.875rem; } 
 }

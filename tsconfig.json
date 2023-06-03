@@ -1,25 +1,20 @@
 {
   "COMPILEONSAVE": true,
   "compilerOptions": {
-    "target": "ES5",
-    "module": "commonjs",
+    "target": "ESNext",
+    "module": "NodeNext",
     "declaration": true,
-    "noImplicitAny": true,
-    "noImplicitReturns": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
     "removeComments": true,
     "downlevelIteration": true,
     "noLib": false,
-    "alwaysStrict": true,
+    "alwaysStrict": false,
     "sourceMap": true,
     "lib": ["es6", "dom"],
     "outDir": "./dist/"
-  },
-  "include": ["ts/**/*"],
-  "exclude": [
-    "dist",
-    "samples",
-    "node_modules"
-  ]
+  }, "include": ["ts/**/*"],
+  "exclude": ["dist", "samples", "node_modules"]
 }

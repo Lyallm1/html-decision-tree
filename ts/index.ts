@@ -1,4 +1,4 @@
-import {Tree as obj0} from './tree';
+import { Tree } from './tree.js';
 
-export let Tree = obj0;
-export let create = Tree.create;
+export const create = Tree.create;
+export { Tree }
